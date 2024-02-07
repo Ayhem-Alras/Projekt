@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    }
+    
+    .head{
+        text-align: center;
+       background-color: rgba(15, 17, 17, 0.759);
+        padding: 5px;
+        position: fixed;
+        width: 100vw;
+        height: 10vh;
+    }
+    
+    .head ul li{
+        display:inline-block;
+        padding: 10px;
+        margin: 10px;
+        font-size: 25px;  
+    }
+    
+    .head a  {
+        color: aliceblue;
+        
+    }
+    
+    .head a:hover {
+        color: red
+    }
+        
+    #home,
+    #about,
+    #skills,
+    #contact {
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100wv;
+        height: 100vh;
+        background-size: cover
+    }
+    
+    #home {
+        background-image: url(./imges/planet-in-dazzling-galaxy-background-gixaqtvgmxz0eli2.jpg);
+        width: 100wv;
+        height: 100vh;
+    }
+
+    #about{
+        background-image: url(./imges/1000_F_586319411_ADymP3enN8YxgXRrddChVl2uPi8lr5fX.jpg); 
+        display: flex; /* Use flexbox */
+  justify-content: center; /* Horizontally center */
+  align-items: center; 
+        width: 100wv;
+        height: 100vh;
+    }
+
+.about-hintergrund  {
+background-color: aqua;
+}    
+
+    #skills{
+        background-image: url(./imges/photo-1444080748397-f442aa95c3e5.jpg); 
+        
+        width: 100wv;
+        height: 100vh;
+    }
+    
+    #contact{
+        background-image: url(./imges/ultradetaillierte-nebel-abstrakte-tapete-4_1562-749.avif); 
+        
+        width: 100wv;
+        height: 100vh;
+    }
+
+    section{
+        flex-grow: 1; 
+        padding: 50px;
+    }
+
+    .center-text{
+        text-align: center;
+        color: rgb(252, 248, 248); 
+        font-size: 100px; 
+        margin-top: 20vh; 
+       position: relative;
+  animation: moveRightToLeft 3s linear infinite;
+    }
+
+     @keyframes moveRightToLeft {
+        50% {
+          left: 100vw; 
+        }
+        100% {
+          left: 0%
+        }
+      } 
+     
+      .about-text{ 
+        text-align: center;
+        color: rgb(16, 15, 15); 
+        font-size: 30px;
+        width: 300px;
+    
+      }
+
+     .about-hintergrund{
+        width: 1000px;
+        height: 800px;
+        background-color: rgb(161, 165, 170);
+        border-radius: 5em;
+        display: flex;
+
+     } 
+
+     .about-hintergrund img{
+        max-width: 50%;
+        max-height: 50%;
+        margin: 50px;
+        padding: 10px;
+     }
+
+     
+footer{
+position: fixed;
+bottom: 0;
+    left: 0;
+background-color: rgba(0, 0, 0, 0.657);
+text-align: center;
+padding: 10px 0;
+width: 100vw;
+
+}
+
+
+.icon-list li{
+display: inline-block;
+    padding: 5px;
+    margin: 5px;
+} 
+    
+#skills {
+    padding: 50px;
+}
+
+.skill {
+    margin-bottom: 200px;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 20px;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+#contact{
+color: aliceblue;
+font-size: 60px;
+;
+}
+
+.contact-details li{
+    margin-bottom: 100px
+}
