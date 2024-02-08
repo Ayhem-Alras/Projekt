@@ -3,6 +3,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
     }
     
     .head{
@@ -22,8 +23,7 @@ body {
     }
     
     .head a  {
-        color: aliceblue;
-        
+        color: aliceblue; 
     }
     
     .head a:hover {
@@ -37,37 +37,14 @@ body {
         
         background-repeat: no-repeat;
         background-position: center;
-        width: 100wv;
+        width: 100vw;
         height: 100vh;
         background-size: cover
     }
     
     #home {
         background-image: url(./imges/planet-in-dazzling-galaxy-background-gixaqtvgmxz0eli2.jpg);
-        width: 100wv;
-        height: 100vh;
-    }
-
-    #about{
-        background-image: url(./imges/1000_F_586319411_ADymP3enN8YxgXRrddChVl2uPi8lr5fX.jpg); 
-        display: flex; /* Use flexbox */
-  justify-content: center; /* Horizontally center */
-  align-items: center; 
-        width: 100wv;
-        height: 100vh;
-    }
-
-    #skills{
-        background-image: url(./imges/photo-1444080748397-f442aa95c3e5.jpg); 
-        
-        width: 100wv;
-        height: 100vh;
-    }
-    
-    #contact{
-        background-image: url(./imges/ultradetaillierte-nebel-abstrakte-tapete-4_1562-749.avif); 
-        
-        width: 100wv;
+        width: 100vw;
         height: 100vh;
     }
 
@@ -94,6 +71,15 @@ body {
         }
       } 
      
+      #about{
+        background-image: url(./imges/pexels-hristo-fidanov-1252890.jpg); 
+        display: flex; /* Use flexbox */
+  justify-content: center; /* Horizontally center */
+  align-items: center; 
+        width: 100vw;
+        height: 100vh;
+    }
+
       .about-text{ 
         text-align: center;
         color: rgb(16, 15, 15); 
@@ -112,34 +98,19 @@ body {
      } 
 
      .about-hintergrund img{
-        width: 250px;
-        height: 400px;
+        width: 300px;
+        height: 350px;
         margin: 20px;
         padding: 10px;
      }
-
-     .uberschrift h1{
-      color: red;
-     }
-     
-footer{
-position: fixed;
-bottom: 0;
-    left: 0;
-background-color: rgba(0, 0, 0, 0.657);
-text-align: center;
-padding: 10px 0;
-width: 100vw;
-
+        
+#skills{
+    background-image: url(./imges/pexels-hristo-fidanov-1252890.jpg); 
+    
+    width: 100vw;
+    height: 100vh;
 }
 
-
-.icon-list li{
-display: inline-block;
-    padding: 5px;
-    margin: 5px;
-} 
-    
 #skills {
     padding: 50px;
 }
@@ -155,6 +126,18 @@ display: inline-block;
     transition: width 1s ease-in-out;
 }
 
+.skill h3{
+    color: aliceblue;
+    font-size: 24px;
+}
+
+#contact{
+    background-image: url(./imges/4k-ultra-hd-galaxy-glowing-planet-ahec6izt2rupnoin.jpg); 
+    
+    width: 100vw;
+    height: 100vh;
+}
+
 #contact{
 color: aliceblue;
 font-size: 60px;
@@ -164,3 +147,21 @@ font-size: 60px;
 .contact-details li{
     margin-bottom: 100px
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+        left: 0;
+    background-color: rgba(0, 0, 0, 0.657);
+    text-align: center;
+    padding: 10px 0;
+    width: 100vw;
+    
+    }
+    
+    
+    .icon-list li{
+    display: inline-block;
+        padding: 5px;
+        margin: 5px;
+    } 
